@@ -1,5 +1,5 @@
 pipeline {
-    agent 'maven-jdk8'
+    agent {maven-jdk8}
 
     stages {
         stage ('Compile Stage') {
